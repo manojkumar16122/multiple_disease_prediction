@@ -274,7 +274,7 @@ if (selected == 'Autism Prediction'):
             autism_diagnosis = 'The Person does not have Autism Disease'
 if (selected == 'About us'):
     st.title('About us')
-    st.text('This app is designed to predict whether a person has the listed multiple disease or not.')
+    st.text('This application is designed to predict whether a person has the listed multiple disease or not.')
     st.text('It works by the principle of applying machine learning techniques. When the user')
     st.text('gives the inputs regarding the person, it gets tested by the machine learning model.')
     st.text('The proposed model is based on the Support Vector Machine.The input data gets tested')

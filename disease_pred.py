@@ -27,7 +27,7 @@ with st.sidebar:
                            'Heart Disease Prediction',
                            'Parkinsons Prediction',
                            'Autism Prediction'
-                          ,'  About us','  Contact'],
+                          ,'About us','Contact'],
                           icons = ['activity','suit-heart','person-circle','caret-right-square-fill','house','cast'],
                           default_index=0)
                    

@@ -28,7 +28,7 @@ with st.sidebar:
                            'Parkinsons Prediction',
                            'Autism Prediction'
                           ,'About us','Contact'],
-                          icons = ['activity','suit-heart','person-circle','caret-right-square-fill','chat-heart','envelope-heart'],
+                          icons = ['activity','suit-heart','person-circle','caret-right-square-fill','calendar-heart','envelope-heart'],
                           default_index=0)
                    
     

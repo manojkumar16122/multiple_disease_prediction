@@ -26,8 +26,9 @@ with st.sidebar:
                           ['Diabetes Prediction',
                            'Heart Disease Prediction',
                            'Parkinsons Prediction',
-                           'Autism Prediction'],
-                          icons = ['activity','suit-heart','person-circle','caret-right-square-fill'],
+                           'Autism Prediction'
+                          ,'About us','Contact'],
+                          icons = ['activity','suit-heart','person-circle','caret-right-square-fill','chat-heart','envelope-heart'],
                           default_index=0)
                    
     
@@ -278,7 +279,7 @@ if (selected == 'Autism Prediction'):
     st.text('gives the inputs regarding the person, it gets tested by the machine learning model.')
     st.text('The proposed model is based on the Support Vector Machine.The input data gets tested')
     st.text(' and predicts the result.')
-if (selected == 'CONTACT'):
+if (selected == 'Contact'):
     st.title('FURTHER CONTACT DETAILS')
     st.text('For further details contact us at mkinfotechgmail.com')
     st.text('Developed by Manojkumar and Aashiqmohamed')

@@ -265,13 +265,15 @@ if (selected == 'Autism Prediction'):
     
     autism_diagnosis = ''
     
-    if st.button('AUTISM TEST RESULT'):
+    if st.button("AUTISM TEST RESULT"):
         autism_prediction = autism_model.predict([[A1_Score,A2_Score,A3_Score,A4_Score,A5_Score,A6_Score,A7_Score,A8_Score,A9_Score,A10_Score,age,jundice]])
         
         if (autism_prediction[0] == 1):
-            autism_diagnosis = 'The Person has the risk of Autism'
+            autism_diagnosis = "The Person has the risk of Autism"
         else:
-            autism_diagnosis = 'The Person does not have Autism Disease'
+            autism_diagnosis = "The Person does not have Autism Disease"
+
+              st.success( autism_diagnosis)
 if (selected == 'About us'):
     st.title('About us')
     st.text('This application is designed to predict whether a person has the listed multiple disease or not.')

@@ -273,7 +273,7 @@ if (selected == 'Autism Prediction'):
         else:
             autism_diagnosis = "The Person does not have Autism Disease"
 
-              st.success( autism_diagnosis)
+    st.success( autism_diagnosis)
 if (selected == 'About us'):
     st.title('About us')
     st.text('This application is designed to predict whether a person has the listed multiple disease or not.')

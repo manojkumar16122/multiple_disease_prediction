@@ -283,5 +283,5 @@ if (selected == 'About us'):
     st.text(' and predicts the result.')
 if (selected == 'Contact'):
     st.title('FURTHER CONTACT DETAILS')
-    st.text('For further details contact us at mkinfotechgmail.com')
+    st.text('For further details contact us at mkinfotechology2022gmail.com')
     st.text('Developed by Manojkumar and Thanapraneshkumar')

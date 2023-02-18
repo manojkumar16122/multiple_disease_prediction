@@ -284,4 +284,4 @@ if (selected == 'About us'):
 if (selected == 'Contact'):
     st.title('FURTHER CONTACT DETAILS')
     st.text('For further details contact us at mkinfotechology2022@gmail.com')
-    st.text('Developed by Manojkumar and Thanapraneshkumar')
+    st.text('Developed by Manojkumar')

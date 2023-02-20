@@ -282,10 +282,6 @@ if (selected == 'Autism Prediction'):
     "4. Sparks Vidyalaya Link:" "http://sparksautismschool.com/"
     
     
-    
-                            "by mkinfotechnology2022"
-    
-    
 if (selected == 'About us'):
     st.title('About us')
     st.text('This application is designed to predict whether a person has the listed multiple disease or not.')

@@ -272,6 +272,7 @@ if (selected == 'Autism Prediction'):
             autism_diagnosis = "The Person has the risk of Autism"
         else:
             autism_diagnosis = "The Person does not have Autism Disease"
+            st.success( autism_diagnosis)
             "For further consultant kindly use:"
             "1. ABA Therapy Centre for AUTISM link:" "http://www.youcanautism.com/"
             "2. Third Eye - A learning center for Autism Link:" "http://www.thirdeyecenter.org/"
@@ -280,7 +281,7 @@ if (selected == 'Autism Prediction'):
             
             
 
-    st.success( autism_diagnosis)
+   
     
    
     

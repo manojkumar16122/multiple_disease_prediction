@@ -275,8 +275,10 @@ if (selected == 'Autism Prediction'):
             
 
     st.success( autism_diagnosis)
+    "For further consultant:"
+    "1.ABA Therapy Centre for AUTISM
+    "link:" http://www.youcanautism.com/
     
-    "Consultancy centre for autism disorder"
     
 if (selected == 'About us'):
     st.title('About us')

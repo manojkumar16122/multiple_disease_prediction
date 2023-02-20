@@ -272,9 +272,12 @@ if (selected == 'Autism Prediction'):
             autism_diagnosis = "The Person has the risk of Autism"
         else:
             autism_diagnosis = "The Person does not have Autism Disease"
-            "Consultancy centre fior autism disorder"
+            
 
     st.success( autism_diagnosis)
+    
+    "Consultancy centre for autism disorder"
+    
 if (selected == 'About us'):
     st.title('About us')
     st.text('This application is designed to predict whether a person has the listed multiple disease or not.')

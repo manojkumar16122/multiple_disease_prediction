@@ -278,14 +278,8 @@ if (selected == 'Autism Prediction'):
             "2. Third Eye - A learning center for Autism Link:" "http://www.thirdeyecenter.org/"
             "3. Vatsalyam Centre For Autism Link:" "http://www.vatsalyam.in/"
             "4. Sparks Vidyalaya Link:" "http://sparksautismschool.com/"
-            
-            
-
-   
-    
-   
-    
-    
+         
+        
 if (selected == 'About us'):
     st.title('About us')
     st.text('This application is designed to predict whether a person has the listed multiple disease or not.')

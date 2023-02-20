@@ -273,11 +273,11 @@ if (selected == 'Autism Prediction'):
         else:
             autism_diagnosis = "The Person does not have Autism Disease"
             
-   "For further consultant kindly use:"
+   st.text("For further consultant kindly use:"
    "1. ABA Therapy Centre for AUTISM link:" "http://www.youcanautism.com/"
    "2. Third Eye - A learning center for Autism Link:" "http://www.thirdeyecenter.org/"
    "3. Vatsalyam Centre For Autism Link:" "http://www.vatsalyam.in/"
-   "4. Sparks Vidyalaya Link:" "http://sparksautismschool.com/"
+   "4. Sparks Vidyalaya Link:" "http://sparksautismschool.com/")
             
 
     st.success( autism_diagnosis)

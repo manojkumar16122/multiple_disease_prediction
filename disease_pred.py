@@ -278,8 +278,12 @@ if (selected == 'Autism Prediction'):
     "For further consultant kindly use:"
     "1. ABA Therapy Centre for AUTISM link:" "http://www.youcanautism.com/"
     "2. Third Eye - A learning center for Autism Link:" "http://www.thirdeyecenter.org/"
-    "3.Vatsalyam Centre For Autism Link:" "http://www.vatsalyam.in/"
-    "4.Sparks Vidyalaya Link:" "http://sparksautismschool.com/"
+    "3. Vatsalyam Centre For Autism Link:" "http://www.vatsalyam.in/"
+    "4. Sparks Vidyalaya Link:" "http://sparksautismschool.com/"
+    
+    
+    
+                            "by mkinfotechnology2022"
     
     
 if (selected == 'About us'):

@@ -22,7 +22,7 @@ autism_model = pickle.load(open('autism_model.sav','rb'))
 # sidebar for navigation
 with st.sidebar:
     
-    selected = option_menu('Life Style Disease Prediction',                          
+    selected = option_menu('Multiple Disease Prediction Using ML',                          
                           ['Diabetes Prediction',
                            'Heart Disease Prediction',
                            'Parkinsons Prediction',
@@ -290,6 +290,6 @@ if (selected == 'About us'):
 if (selected == 'Contact'):
     st.title('FURTHER CONTACT DETAILS')
     st.text('For further details contact us at mkinfotechology2022@gmail.com')
-    st.text('Developed by Sudarmugi B')
+    st.text('Developed by Manojkumar V')
 
     
